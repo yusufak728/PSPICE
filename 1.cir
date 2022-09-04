@@ -1,0 +1,8 @@
+* Yusuf Ahmed Khan_20ELB084
+Vin 1 0 AC 15V
+R 1 2 1K
+C 2 0 10nF
+
+.AC DEC 100 10hz 10Meghz
+.probe
+.end

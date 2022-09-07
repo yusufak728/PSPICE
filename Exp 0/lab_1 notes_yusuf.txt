@@ -1,0 +1,5 @@
+plot the freq response (a.c. analysis)
+
+1. Reduce time constant R*C and see the bandwidth will increase. f = 1/2*pi*R*C
+   Eg. 10 k R has bw 1.6 khz
+       & 1 k R has bw 16 khz

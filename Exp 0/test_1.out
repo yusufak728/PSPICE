@@ -1,0 +1,54 @@
+
+**** 09/07/22 00:40:08 *********** Evaluation PSpice (Nov 1999) **************
+
+  
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+Vin 1 0 AC 5v
+R 1 2 100K      
+C 2 0 10nf
+.AC DEC 100 10Hz 10MegHz
+.probe
+.end
+
+**** 09/07/22 00:40:08 *********** Evaluation PSpice (Nov 1999) **************
+
+  
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1)    0.0000  (    2)    0.0000  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    Vin          0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME             .02
+

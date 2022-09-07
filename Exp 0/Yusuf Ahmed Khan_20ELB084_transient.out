@@ -1,0 +1,70 @@
+
+**** 08/31/22 15:50:54 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ * Yusuf Ahmed Khan_20ELB084
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+*Vin 1 0 AC 5V ->> for a.c. analysis
+*Vin 1 0 Sin(0 5v 2Khz) ->> sin wave as input
+Vin 1 0 PULSE(-5V +5V 0 1ns 1ns 1ms 4ms) 
+*PULSE(V1 V2 TD(DELAY TIME) TR(RISE TIME) TF(FALL TIME) PW(PULSE WIDTH) PER(PERIOD)) ->> pulse as input
+R 1 2 1K
+C 2 0 10nF
+
+*.AC DEC 100 10hz 10Meghz
+.tran 10uf 2ms
+.probe
+.end
+
+**** 08/31/22 15:50:54 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ * Yusuf Ahmed Khan_20ELB084
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1)   -5.0000  (    2)   -5.0000  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    Vin          0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 08/31/22 15:50:54 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ * Yusuf Ahmed Khan_20ELB084
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =        0.00
+

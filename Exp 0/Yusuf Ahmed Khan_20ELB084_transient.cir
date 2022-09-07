@@ -1,0 +1,12 @@
+* Yusuf Ahmed Khan_20ELB084
+*Vin 1 0 AC 5V ->> for a.c. analysis
+*Vin 1 0 Sin(0 5v 2Khz) ->> sin wave as input
+Vin 1 0 PULSE(-5V +5V 0 1ns 1ns 1ms 4ms) 
+*PULSE(V1 V2 TD(DELAY TIME) TR(RISE TIME) TF(FALL TIME) PW(PULSE WIDTH) PER(PERIOD)) ->> pulse as input
+R 1 2 1K
+C 2 0 10nF
+
+*.AC DEC 100 10hz 10Meghz
+.tran 10uf 2ms
+.probe
+.end

@@ -1,0 +1,66 @@
+
+**** 08/31/22 15:55:43 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ * Yusuf Ahmed Khan_20ELB084
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+Vin 1 0 AC 5V
+R 1 2 1K
+C 2 0 10nF
+
+.AC DEC 100 10hz 10Meghz
+.probe
+.end
+
+**** 08/31/22 15:55:43 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ * Yusuf Ahmed Khan_20ELB084
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1)    0.0000  (    2)    0.0000  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    Vin          0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 08/31/22 15:55:43 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ * Yusuf Ahmed Khan_20ELB084
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .02
+

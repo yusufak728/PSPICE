@@ -1,0 +1,8 @@
+
+
+Vin 1 0 AC 5v
+R 1 2 100K	
+C 2 0 10nf
+.AC DEC 100 10Hz 10MegHz
+.probe
+.end

@@ -1,0 +1,8 @@
+* Yusuf Ahmed Khan_20ELB084
+* dc analysis 
+R1 1 2 10K
+R2 2 0 30K
+Vin 1 0 DC 10V
+*.DC lin Vin 0 10v 1v
+.probe
+.end

@@ -1,0 +1,13 @@
+* Yusuf Ahmed Khan 20ELB084 part a
+Vdd 3 0 5V
+I 3 1 20u
+RL 3 2 1K
+M1 1 1 0 0 NMOS12 W=5u L=1u
+M2 2 1 0 0 NMOS12 W={W2} L=1u
+.MODEL NMOS12 NMOS(kp=200u VTO=0.5V)
+.param W2=1
+.step param W2 LIST 5u 10u 20u
+.dc I 0 50u 1u
+.OP
+.probe
+.end

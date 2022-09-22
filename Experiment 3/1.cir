@@ -1,0 +1,7 @@
+* Yusuf Ahmed Khan 20ELB084
+Vdd 2 0 5V
+R 2 1 1k
+M1 1 1 0 0 NMOS12 W=5U L=1U
+.MODEL NMOS12 NMOS(kp=100U VTO=0.4)
+.OP
+.end

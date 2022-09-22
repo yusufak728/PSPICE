@@ -1,0 +1,13 @@
+* Yusuf Ahmed Khan 20ELB084 part b
+Vdd 3 0 5V
+Vds 2 0 {Vd}
+I 3 1 20u
+RL 3 2 1K
+M1 1 1 0 0 NMOS12 W=5u L=1u
+M2 2 1 0 0 NMOS12 W=5u L=1u
+.MODEL NMOS12 NMOS(kp=200u LAMBDA=0.05 VTO=0.5V)
+.param Vd=1
+.dc Vds 0 1 0.01
+.OP
+.probe
+.end

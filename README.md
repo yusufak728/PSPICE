@@ -6,7 +6,7 @@ Advisable to understand concepts.
 
 Software used is Orcad PSPICE. 
 
-In case of any queries, feel free to contact me via mail , yusufahmedkhan@zhet.ac.in \
+In case of any queries, feel free to contact me via mail , yusufahmedkhan@zhet.ac.in
 
 Best Wishes and Good Luck! \
 Yusuf A. Khan \

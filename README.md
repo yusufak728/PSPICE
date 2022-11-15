@@ -1,6 +1,6 @@
 # PSPICE Lab Experiments
 
-PSPICE simulation lab 3rd year, Electronics Engineering. Course: Electronics Lab III ELC3910 \
+PSPICE simulation lab 3rd year, Electronics Engineering. Course: Electronics Lab III ELC3910. \
 
 Advisable to understand concepts. \
 

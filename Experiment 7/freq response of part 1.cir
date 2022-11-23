@@ -1,0 +1,41 @@
+* Yusuf Ahmed Khan
+* Differential amplifier, part 2, freq response 
+
+VDD 6 0 3.5V
+
+Vin_p 2 0 AC 1V
+
+Vin_n 4 0 AC -1V
+
+R1 6 1 4.375K
+
+R2 6 5 4.375K
+
+IREF 3 0 0.8MA
+
+
+M1 1 2 3 0 MN W=50U L=0.7U
+
+M2 5 4 3 0 MN W=50U L=0.7U
+
+
+.MODEL MN NMOS (                                LEVEL   = 3                  
++TOX     = 7.9E-9         NSUB    = 1E17           GAMMA   = 0.5827871          
++PHI     = 0.7            VTO     = 0.5445549      DELTA   = 0                  
++UO      = 436.256147     ETA     = 0              THETA   = 0.1749684          
++KP      = 2.055786E-4    VMAX    = 8.309444E4     KAPPA   = 0.2574081          
++RSH     = 0.0559398      NFS     = 1E12           TPG     = 1                  
++XJ      = 3E-7           LD      = 3.162278E-11   WD      = 7.046724E-8        
++CGDO    = 2.82E-10       CGSO    = 2.82E-10       CGBO    = 1E-10              
++CJ      = 1E-3           PB      = 0.9758533      MJ      = 0.3448504          
++CJSW    = 3.777852E-10   MJSW    = 0.3508721       )     
+
+*.TRAN 0.1U 3M
+
+.TF V(1,5) Vin_n
+
+.AC DEC 100 1HZ 1000000MEGHZ
+ 
+.OP
+.PROBE
+.END
